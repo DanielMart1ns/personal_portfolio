@@ -7,7 +7,7 @@ export const HeaderBody = styled.div`
   display: flex;
   align-items: center;
   position: relative;
-  border-bottom: 2px solid rgb(202, 217, 255);
+  border-bottom: 2px solid #cad9ff;
 
   &:before {
     position: absolute;
