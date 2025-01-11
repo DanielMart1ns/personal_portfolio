@@ -1,4 +1,4 @@
-import videoContent from '../../assets/videos/introduction-video.mp4';
+import videoContent from '../../assets/videos/video-desk-720-mod.mp4';
 import * as S from './style';
 
 const IntroductionVideo = ({ onVideoEnded }) => {

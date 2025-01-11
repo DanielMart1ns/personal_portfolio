@@ -3,9 +3,10 @@ import computerIcon from '../../assets/images/icons8-bookmark-375.png';
 
 const About = () => {
   return (
-    <S.AboutBody>
+    <S.AboutBody className="contentDiv">
       <div className="textBody">
-        <h2>Quem sou eu?</h2>
+        <span className="fragment">&lt; &gt;</span>
+        <h2> Quem sou eu?</h2>
         <p>Olá, é um grande prazer ter você aqui!</p>
         <p>
           Faço parte do grupo de pessoas que gostam de esportes, animais,
@@ -25,9 +26,10 @@ const About = () => {
           Stack com back-end na linguagem Java na instituição EBAC, prossigo
           trilhando meu caminho nesta área na qual me identifico muito.
         </p>
+        <span className="fragment">&lt; / &gt;</span>
       </div>
 
-      <img src={computerIcon} />
+      {/* <img src={computerIcon} /> */}
     </S.AboutBody>
   );
 };

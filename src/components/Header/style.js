@@ -7,20 +7,19 @@ export const HeaderBody = styled.div`
   display: flex;
   align-items: center;
   position: relative;
-  border-bottom: 2px solid #cad9ff;
+  /* border-bottom: 2px solid #000; */
+  background-image: url(${background});
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  &:before {
+  &::after {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(${background});
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 56%, #1e1e1e 98%);
     content: '';
-    opacity: 0.5;
-    z-index: -1;
   }
 
   .avatarPicture {
@@ -29,6 +28,7 @@ export const HeaderBody = styled.div`
     width: 280px;
     height: 280px;
     box-shadow: 0px 0px 8px black;
+    z-index: 1;
   }
 `;
 
@@ -49,8 +49,14 @@ export const IdentificationContainer = styled.div`
 
 export const SocialLinksContainer = styled.div`
   margin-left: auto;
+  z-index: 1;
 
   .socialIcons {
     width: 80px;
+    transition: fill 0.3s ease-in-out;
+
+    &:hover {
+      fill: rgba(30, 30, 30, 0.6);
+    }
   }
 `;

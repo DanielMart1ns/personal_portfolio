@@ -1,20 +1,32 @@
 import { styled } from 'styled-components';
 
 export const AboutBody = styled.div`
-  margin: 46px 220px 0 72px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 20%;
+  column-gap: 240px;
   align-items: center;
 
   .textBody {
-    /* background-color: bisque; */
     width: 820px;
 
+    h2 {
+      margin-top: 16px;
+      margin-bottom: 26px;
+      margin-left: 16px;
+    }
+
     p {
-      font-family: Inter, sans-serif;
+      font-family: 'Space Mono', sans-serif;
       margin: 16px 0;
       font-size: 20px;
+      margin-left: 16px;
+      text-align: justify;
+    }
+
+    .fragment {
+      margin: 16px 0;
+      font-size: 20px;
+      color: gray;
     }
   }
 
