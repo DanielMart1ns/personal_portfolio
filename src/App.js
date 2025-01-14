@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import Header from './components/Header';
-import IntroductionVideo from './components/IntroductionVideo';
+import Header from './views/Header';
+import IntroductionVideo from './views/IntroductionVideo';
 import { GlobalStyle } from './style';
-import About from './components/About';
-import Technologies from './components/Technologies';
+import About from './views/About';
+import Technologies from './views/Technologies';
 
 function App() {
   const [introVideoEnded, setIntroVideoEnded] = useState(false);
@@ -24,6 +24,7 @@ function App() {
         <>
           <Header />
           <About />
+          <Technologies />
         </>
       )} */}
     </>

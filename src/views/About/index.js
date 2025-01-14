@@ -1,5 +1,4 @@
 import * as S from './style';
-import computerIcon from '../../assets/images/icons8-bookmark-375.png';
 
 const About = () => {
   return (

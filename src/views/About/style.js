@@ -11,7 +11,6 @@ export const AboutBody = styled.div`
 
     h2 {
       margin-top: 16px;
-      margin-bottom: 26px;
       margin-left: 16px;
     }
 

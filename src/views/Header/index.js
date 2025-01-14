@@ -1,6 +1,6 @@
 import avatar from '../../assets/images/avatar.jpg';
-import githubIcon from '../../assets/images/github-icon.svg';
-import linkedinIcon from '../../assets/images/linkedin-icon.svg';
+import githubIcon from '../../assets/icons/github-icon.svg';
+import linkedinIcon from '../../assets/icons/linkedin-icon.svg';
 import * as S from './style';
 
 const Header = () => {
