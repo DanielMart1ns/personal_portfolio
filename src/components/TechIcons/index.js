@@ -26,6 +26,8 @@ import { ReactComponent as GitIcon } from '../../assets/icons/dev-tools/git-icon
 import { ReactComponent as VSIcon } from '../../assets/icons/dev-tools/visual-studio-code-icon.svg';
 import { ReactComponent as IntelliJIcon } from '../../assets/icons/dev-tools/intellijidea-icon.svg';
 import { ReactComponent as EclipseIcon } from '../../assets/icons/dev-tools/eclipseide-icon.svg';
+import { ReactComponent as GitHubIcon } from '../../assets/icons/dev-tools/github-icon.svg';
+import { ReactComponent as GitLabIcon } from '../../assets/icons/dev-tools/gitlab.svg';
 
 const frontEndIcons = {
   HTML: {
@@ -108,6 +110,14 @@ const devToolsIcons = {
   Git: {
     icon: GitIcon,
     url: 'https://git-scm.com/',
+  },
+  GitHub: {
+    icon: GitHubIcon,
+    url: 'https://github.com/home',
+  },
+  GitLab: {
+    icon: GitLabIcon,
+    url: 'https://about.gitlab.com/',
   },
   VisualStudio: {
     icon: VSIcon,

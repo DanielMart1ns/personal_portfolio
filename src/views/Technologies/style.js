@@ -16,4 +16,8 @@ export const TechGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   row-gap: 26px;
+
+  a {
+    width: fit-content;
+  }
 `;

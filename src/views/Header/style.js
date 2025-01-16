@@ -53,10 +53,10 @@ export const SocialLinksContainer = styled.div`
 
   .socialIcons {
     width: 80px;
-    transition: fill 0.3s ease-in-out;
+    transition: fill 0.1s ease-in-out;
 
     &:hover {
-      fill: rgba(30, 30, 30, 0.6);
+      fill: rgba(0, 0, 0, 0.84);
     }
   }
 `;

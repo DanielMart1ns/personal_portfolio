@@ -1,8 +1,8 @@
 import { ButtonBody } from './style';
 
-const Button = ({ TechIcon }) => {
+const Button = ({ TechIcon, size = 'full' }) => {
   return (
-    <ButtonBody>
+    <ButtonBody size={size}>
       <TechIcon className="icon" />
     </ButtonBody>
   );

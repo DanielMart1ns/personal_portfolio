@@ -4,6 +4,7 @@ import IntroductionVideo from './views/IntroductionVideo';
 import { GlobalStyle } from './style';
 import About from './views/About';
 import Technologies from './views/Technologies';
+import Projects from './views/MyProjects';
 
 function App() {
   const [introVideoEnded, setIntroVideoEnded] = useState(false);
@@ -18,6 +19,7 @@ function App() {
       <Header />
       <About />
       <Technologies />
+      <Projects />
       {/* {!introVideoEnded ? (
         <IntroductionVideo onVideoEnded={handleVisibility} />
       ) : (
