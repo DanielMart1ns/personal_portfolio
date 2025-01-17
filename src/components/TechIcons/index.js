@@ -15,6 +15,7 @@ import { ReactComponent as JavaIcon } from '../../assets/icons/back-end-tech/jav
 import { ReactComponent as SpringBootIcon } from '../../assets/icons/back-end-tech/spring-boot-icon.svg';
 import { ReactComponent as PostgreeIcon } from '../../assets/icons/back-end-tech/postgreesql-icon.svg';
 import { ReactComponent as MongoDBIcon } from '../../assets/icons/back-end-tech/mongodb-icon.svg';
+import { ReactComponent as PostmanIcon } from '../../assets/icons/back-end-tech/postman-icon.svg';
 
 //Software tests icons
 import { ReactComponent as JestIcon } from '../../assets/icons/software-test/jest-icon.svg';
@@ -88,6 +89,10 @@ const backEndIcons = {
   MongoDB: {
     icon: MongoDBIcon,
     url: 'https://www.mongodb.com/',
+  },
+  PostMan: {
+    icon: PostmanIcon,
+    url: 'https://www.postman.com/',
   },
 };
 

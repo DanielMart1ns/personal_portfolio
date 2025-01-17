@@ -23,9 +23,12 @@ export const ProjectCard = styled.div`
   width: 520px;
   border-radius: 20px;
   background-color: rgba(0, 0, 0, 0.85);
+  transition: all 0.2s ease-in-out;
 
-  :hover {
-    box-shadow: 0px 0px 0px black;
+  &:hover {
+    transform: translate(10px, -10px);
+
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.74);
   }
 
   img {
@@ -47,14 +50,21 @@ export const ProjectCard = styled.div`
     p {
       font-family: 'Nunito', sans-serif;
       color: rgb(171, 171, 171);
+      /* cursor: pointer; */
     }
 
-    .acessProjectIcons {
-      display: flex;
-      width: 140px;
-      margin: auto;
-      justify-content: space-between;
-      height: 60px;
+    .learnMore {
+      p {
+        text-align: center;
+        font-weight: bolder;
+      }
+
+      .acessProjectIcons {
+        display: flex;
+        width: 140px;
+        margin: auto;
+        justify-content: space-between;
+      }
     }
   }
 `;

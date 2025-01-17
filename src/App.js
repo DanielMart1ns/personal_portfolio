@@ -27,6 +27,7 @@ function App() {
           <Header />
           <About />
           <Technologies />
+          <Projects />
         </>
       )} */}
     </>
