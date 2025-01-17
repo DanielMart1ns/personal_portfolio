@@ -32,7 +32,7 @@ const projetItems = {
     image: sportStore,
     title: 'SportStore',
     description:
-      'Projeto clone da Landing Page do Disney Plus, concluído. Neste projeto utilizamos o automatizador de tarefas Gulp.js, desta forma ganhamos mais desempenho em nossa aplicação, por meio de compressão de código e melhor qualidade de imagens sem aumento de consumo de dados. Para a estilização, foi usado o SASS e metodologias SMACSS & BEM.',
+      'Projeto SportStore utilizando um hero de tela inicial e uma logo marca personalizada. Neste projeto utilizamos o automatizador de tarefas Gulp.js, desta forma ganhamos mais desempenho em nossa aplicação, por meio de compressão de código e melhor qualidade de imagens sem aumento de consumo de dados. Para a estilização, foi usado o SASS e metodologias SMACSS & BEM.',
     viewUrl: 'https://sport-store-nu.vercel.app/',
     repositoryUrl: 'https://github.com/DanielMart1ns/SportStore',
   },
@@ -40,7 +40,7 @@ const projetItems = {
     image: disneyClone,
     title: 'Clone Disney plus',
     description:
-      'Projeto clone da Landing Page do Disney Plus, concluído. Neste projeto utilizamos o automatizador de tarefas Gulp.js, desta forma ganhamos mais desempenho em nossa aplicação, por meio de compressão de código e melhor qualidade de imagens sem aumento de consumo de dados. Para a estilização, foi usado o SASS e metodologias SMACSS & BEM.',
+      'Neste projeto utilizamos o automatizador de tarefas Gulp.js, desta forma ganhamos mais desempenho em nossa aplicação, por meio de compressão de código e melhor qualidade de imagens sem aumento de consumo de dados. Para a estilização, foi usado o SASS e metodologias SMACSS & BEM.',
     viewUrl: 'https://clone-disneyplus-daniel.vercel.app/',
     repositoryUrl: 'https://github.com/DanielMart1ns/clone_disneyplus',
   },
@@ -56,7 +56,7 @@ const projetItems = {
     image: tourismAgency,
     title: 'Traveling',
     description:
-      'Neste projeto, utilizamos o React.js para a construção da aplicação e sua respectiva componentização. Os estilos foram realizados por meio do Styled-Components de forma dinâmica, a lógica do projeto foi feita a partir do TypeScript e usamos o gerenciador de estados Redux evitando o problema de prop drilling. Funcionamento: O usuário poderá adicionar suas atividades em uma tela de formulário independente, localizada no canto inferior direito da tela, nela conterá o título da tarefa como também a descrição e ele será capaz de inserir a etiqueta de prioridade. Após validada, a atividade será cadastrada na lista de tarefas, no qual haverá um menu de modo a filtrar por cada grupo de prioridade e status. Caso queira, o usuário poderá optar por buscar manualmente por uma tarefa especifica no campo de busca, ou combinar ambos os métodos de filtragem. Obs.: Para a navegação entre páginas foi usado o método react-router para o gerenciamento de rotas, melhorando o desempenho da aplicação.',
+      'Uma web page relacionada a uma agência de turismo chamada Traveling. Para a criação da aplicação utilizamos o framework Bootstrap para de modo a construir os layouts e adionar os estilos.',
     viewUrl: 'https://agencia-turismo-elci.vercel.app/',
     repositoryUrl: 'https://github.com/DanielMart1ns/tourism-agency-bootstrap',
   },
@@ -64,7 +64,7 @@ const projetItems = {
     image: ebacRestaurant,
     title: 'Ebac Restaurant',
     description:
-      'Neste projeto, utilizamos o React.js para a construção da aplicação e sua respectiva componentização. Os estilos foram realizados por meio do Styled-Components de forma dinâmica, a lógica do projeto foi feita a partir do TypeScript e usamos o gerenciador de estados Redux evitando o problema de prop drilling. Funcionamento: O usuário poderá adicionar suas atividades em uma tela de formulário independente, localizada no canto inferior direito da tela, nela conterá o título da tarefa como também a descrição e ele será capaz de inserir a etiqueta de prioridade. Após validada, a atividade será cadastrada na lista de tarefas, no qual haverá um menu de modo a filtrar por cada grupo de prioridade e status. Caso queira, o usuário poderá optar por buscar manualmente por uma tarefa especifica no campo de busca, ou combinar ambos os métodos de filtragem. Obs.: Para a navegação entre páginas foi usado o método react-router para o gerenciamento de rotas, melhorando o desempenho da aplicação.',
+      'Uma web page relacionada a um restaurant. Para a criação da aplicação utilizamos o framework Bootstrap para de modo a construir os layouts e adionar os estilos.',
     viewUrl: 'https://ebac-restaurant.vercel.app/',
     repositoryUrl: 'https://github.com/DanielMart1ns/EBAC_restaurant_bootstrap',
   },
@@ -72,7 +72,7 @@ const projetItems = {
     image: simpleLP,
     title: 'Ebac Restaurant',
     description:
-      'Neste projeto, utilizamos o React.js para a construção da aplicação e sua respectiva componentização. Os estilos foram realizados por meio do Styled-Components de forma dinâmica, a lógica do projeto foi feita a partir do TypeScript e usamos o gerenciador de estados Redux evitando o problema de prop drilling. Funcionamento: O usuário poderá adicionar suas atividades em uma tela de formulário independente, localizada no canto inferior direito da tela, nela conterá o título da tarefa como também a descrição e ele será capaz de inserir a etiqueta de prioridade. Após validada, a atividade será cadastrada na lista de tarefas, no qual haverá um menu de modo a filtrar por cada grupo de prioridade e status. Caso queira, o usuário poderá optar por buscar manualmente por uma tarefa especifica no campo de busca, ou combinar ambos os métodos de filtragem. Obs.: Para a navegação entre páginas foi usado o método react-router para o gerenciamento de rotas, melhorando o desempenho da aplicação.',
+      'Uma landing page simples para um evento fictício, contendo algumas funcionalidades de contagem regressiva e slides de scroll.',
     viewUrl: 'https://ebac-tech-talks-orpin.vercel.app/',
     repositoryUrl: 'https://github.com/DanielMart1ns/ebac_tech_talks',
   },
@@ -108,7 +108,7 @@ const projetItems = {
     image: javaSwing,
     title: 'Back-end Java com IHC',
     description:
-      'Esta aplicação back-end tem como finalidade o cadastro de clientes. Neste momento, utilizamos apenas os métodos de salvamento em memória, para a fixação dos conceitos e lógica, porém, posteriormente iremos salvar em um Database (Banco de Dados). método implementado para o armazenamento dos dados foi Map. Além disso, usamos o java swing para a criação de uma IHC (Interface-Homem-Computador) intuitiva, desse modo, o usuário poderá cadastrar seus clientes de forma prática.',
+      'Aplicação back-end em mémoria com a finalidade de cadastro de clientes. Além disso, usamos o java swing para a criação de uma IHC (Interface-Homem-Computador) intuitiva, desse modo, o usuário poderá se cadastrar seus clientes de forma prática.',
     viewUrl:
       'https://www.linkedin.com/feed/update/urn:li:activity:7232024211001659392/',
     repositoryUrl:
@@ -117,10 +117,3 @@ const projetItems = {
 };
 
 export default projetItems;
-
-/*
-  nosql
-  animais
-  sql
-  swing
-*/

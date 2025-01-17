@@ -3,7 +3,7 @@ import {
   backEndIcons,
   softwareTestsIcons,
   devToolsIcons,
-} from '../../components/TechIcons';
+} from '../../utils/TechIcons';
 import Button from '../../components/Button';
 
 import * as S from './style';

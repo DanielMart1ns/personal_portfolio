@@ -30,6 +30,13 @@ import { ReactComponent as EclipseIcon } from '../../assets/icons/dev-tools/ecli
 import { ReactComponent as GitHubIcon } from '../../assets/icons/dev-tools/github-icon.svg';
 import { ReactComponent as GitLabIcon } from '../../assets/icons/dev-tools/gitlab.svg';
 
+//Social icons
+import { ReactComponent as WhatsappIcon } from '../../assets/icons/social/whatsapp-icon.svg';
+import { ReactComponent as GmailIcon } from '../../assets/icons/social/gmail-icon.svg';
+import { ReactComponent as InstagramIcon } from '../../assets/icons/social/instagram-icon.svg';
+import { ReactComponent as GitHubOutlinedIcon } from '../../assets/icons/social/github-outlined-icon.svg';
+import { ReactComponent as LinkedInIcon } from '../../assets/icons/social/linkedin-outlined-icon.svg';
+
 const frontEndIcons = {
   HTML: {
     icon: HtmlIcon,
@@ -138,4 +145,33 @@ const devToolsIcons = {
   },
 };
 
-export { frontEndIcons, backEndIcons, softwareTestsIcons, devToolsIcons };
+const socialIcons = {
+  Wpp: {
+    icon: WhatsappIcon,
+    url: 'https://wa.me/5511940334631',
+  },
+  Gmail: {
+    icon: GmailIcon,
+    url: 'mailto:danielmmrodrigues10@gmail.com',
+  },
+  Instagram: {
+    icon: InstagramIcon,
+    url: 'https://www.instagram.com/danielmmr_/',
+  },
+  GitHubOutlined: {
+    icon: GitHubOutlinedIcon,
+    url: 'https://github.com/DanielMart1ns?tab=repositories',
+  },
+  Linkedin: {
+    icon: LinkedInIcon,
+    url: 'https://www.linkedin.com/in/daniel-m-m-rodrigues/',
+  },
+};
+
+export {
+  frontEndIcons,
+  backEndIcons,
+  softwareTestsIcons,
+  devToolsIcons,
+  socialIcons,
+};

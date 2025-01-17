@@ -49,7 +49,7 @@ export const ProjectCard = styled.div`
 
     p {
       font-family: 'Nunito', sans-serif;
-      color: rgb(171, 171, 171);
+      color: #ababab;
       /* cursor: pointer; */
     }
 

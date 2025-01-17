@@ -5,7 +5,7 @@ import Button from '../../components/Button';
 import { ReactComponent as eyeView } from '../../assets/icons/eye-view.svg';
 import { ReactComponent as gitHubIcon } from '../../assets/icons/dev-tools/github-icon.svg';
 
-import projetItems from '../../components/ProjectItems';
+import projetItems from '../../utils/ProjectItems';
 
 import * as S from './style';
 
