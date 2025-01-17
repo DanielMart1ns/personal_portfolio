@@ -1,4 +1,5 @@
 import { styled } from 'styled-components';
+import { breakpoints } from '../../style';
 
 export const FooterBody = styled.div`
   margin: 46px 0 0 0;
@@ -16,6 +17,7 @@ export const FooterBody = styled.div`
       font-family: 'Nunito';
       font-weight: normal;
       margin-bottom: 20px;
+      color: #fff;
     }
 
     div {
@@ -24,6 +26,12 @@ export const FooterBody = styled.div`
       flex-wrap: wrap;
       gap: 18px;
       justify-content: center;
+    }
+
+    @media (max-width: ${breakpoints.mobile}) {
+      svg {
+        width: 34px;
+      }
     }
   }
 

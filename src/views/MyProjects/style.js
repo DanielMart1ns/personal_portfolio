@@ -1,4 +1,5 @@
 import { styled } from 'styled-components';
+import { breakpoints } from '../../style';
 
 export const ProjectsContainer = styled.div`
   margin: 40px auto;
@@ -17,6 +18,11 @@ export const Gallery = styled.div`
   grid-template-columns: repeat(2, 1fr);
   column-gap: 32px;
   row-gap: 42px;
+
+  @media (max-width: ${breakpoints.mobile}) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const ProjectCard = styled.div`
@@ -25,9 +31,13 @@ export const ProjectCard = styled.div`
   background-color: rgba(0, 0, 0, 0.85);
   transition: all 0.2s ease-in-out;
 
+  @media (max-width: ${breakpoints.mobile}) {
+    width: auto;
+    /* height: 580px; */
+  }
+
   &:hover {
     transform: translate(10px, -10px);
-
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.74);
   }
 
@@ -52,19 +62,19 @@ export const ProjectCard = styled.div`
       color: #ababab;
       /* cursor: pointer; */
     }
+  }
+`;
 
-    .learnMore {
-      p {
-        text-align: center;
-        font-weight: bolder;
-      }
+export const LearnMore = styled.div`
+  p {
+    text-align: center;
+    font-weight: bolder;
+  }
 
-      .acessProjectIcons {
-        display: flex;
-        width: 140px;
-        margin: auto;
-        justify-content: space-between;
-      }
-    }
+  .accessProjectIcons {
+    display: flex;
+    width: 140px;
+    margin: auto;
+    justify-content: space-between;
   }
 `;

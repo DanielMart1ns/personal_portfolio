@@ -1,5 +1,10 @@
 import { styled, createGlobalStyle } from 'styled-components';
 
+export const breakpoints = {
+  desktop: '1024px',
+  mobile: '768px',
+};
+
 export const GlobalStyle = createGlobalStyle`
     * {
         padding: 0;
@@ -13,11 +18,19 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     .contentDiv{
-        margin: 46px 220px 0 72px;
+        max-width: 1024px;
+        width: 100%;
+        margin: 46px auto 72px;
+
+        /* margin: 46px 220px 0 72px; */
         color: #fff;
 
         h2{
             margin-bottom: 26px;
+        }
+
+        @media (max-width: ${breakpoints.mobile}) {
+            padding: 0 32px;
         }
     }
 `;

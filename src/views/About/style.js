@@ -1,13 +1,10 @@
 import { styled } from 'styled-components';
+import { breakpoints } from '../../style';
 
 export const AboutBody = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 240px;
-  align-items: center;
-
   .textBody {
-    width: 820px;
+    max-width: 820px;
+    width: 100%;
 
     h2 {
       margin-top: 16px;
@@ -20,6 +17,10 @@ export const AboutBody = styled.div`
       font-size: 20px;
       margin-left: 16px;
       text-align: justify;
+
+      @media (max-width: ${breakpoints.mobile}) {
+        text-align: left;
+      }
     }
 
     .fragment {

@@ -6,7 +6,7 @@ const currentYear = new Date().getFullYear();
 
 const Footer = () => {
   return (
-    <FooterBody className="contentDiv">
+    <FooterBody>
       <div className="contacts">
         <h3>Contatos</h3>
         <div>

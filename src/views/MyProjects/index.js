@@ -51,19 +51,18 @@ const Projects = () => {
                 >
                   {getDescription(description, index)}
                 </p>
-
-                <div className="learnMore">
-                  <p>&lt; Saiba Mais / &gt;</p>
-                  <div className="acessProjectIcons">
-                    <a href={viewUrl} target="_blank" rel="noreferrer">
-                      <Button TechIcon={eyeView} size="fit" />
-                    </a>
-                    <a href={repositoryUrl} target="_blank" rel="noreferrer">
-                      <Button TechIcon={gitHubIcon} size="fit" />
-                    </a>
-                  </div>
-                </div>
               </div>
+              <S.LearnMore>
+                <p>&lt; Saiba Mais / &gt;</p>
+                <div className="accessProjectIcons">
+                  <a href={viewUrl} target="_blank" rel="noreferrer">
+                    <Button TechIcon={eyeView} size="fit" />
+                  </a>
+                  <a href={repositoryUrl} target="_blank" rel="noreferrer">
+                    <Button TechIcon={gitHubIcon} size="fit" />
+                  </a>
+                </div>
+              </S.LearnMore>
             </S.ProjectCard>
           )
         )}
