@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Header from './views/Header';
-// import IntroductionVideo from './utils/IntroductionVideo';
+import IntroductionVideo from './utils/IntroductionVideo';
 import { GlobalStyle } from './style';
 import About from './views/About';
 import Technologies from './views/Technologies';
@@ -17,12 +17,12 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Header />
+      {/* <Header />
       <About />
       <Technologies />
       <Projects />
-      <Footer />
-      {/* {!introVideoEnded ? (
+      <Footer /> */}
+      {!introVideoEnded ? (
         <IntroductionVideo onVideoEnded={handleVisibility} />
       ) : (
         <>
@@ -32,7 +32,7 @@ function App() {
           <Projects />
           <Footer />
         </>
-      )} */}
+      )}
     </>
   );
 }
