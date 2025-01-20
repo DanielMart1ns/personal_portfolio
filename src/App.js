@@ -17,12 +17,12 @@ function App() {
   return (
     <>
       <GlobalStyle />
-      <Header />
+      {/* <Header />
       <About />
       <Technologies />
       <Projects />
-      <Footer />
-      {/* {!introVideoEnded ? (
+      <Footer /> */}
+      {!introVideoEnded ? (
         <IntroductionVideo onVideoEnded={handleVisibility} />
       ) : (
         <>
@@ -32,7 +32,7 @@ function App() {
           <Projects />
           <Footer />
         </>
-      )} */}
+      )}
     </>
   );
 }
