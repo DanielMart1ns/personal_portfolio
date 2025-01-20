@@ -8,7 +8,7 @@ import { ReactComponent as SassIcon } from '../../assets/icons/front-end-tech/sa
 import { ReactComponent as TailwindCssIcon } from '../../assets/icons/front-end-tech/tailwind-css-icon.svg';
 import { ReactComponent as VueIcon } from '../../assets/icons/front-end-tech/vuejs-icon.svg';
 import { ReactComponent as ReactIcon } from '../../assets/icons/front-end-tech/react-icon.svg';
-import { ReactComponent as ReduxIcon } from '../../assets/icons/front-end-tech/sass-icon.svg';
+import { ReactComponent as ReduxIcon } from '../../assets/icons/front-end-tech/redux-icon.svg';
 
 //Back-end tech icons
 import { ReactComponent as JavaIcon } from '../../assets/icons/back-end-tech/java-icon.svg';
@@ -29,6 +29,8 @@ import { ReactComponent as IntelliJIcon } from '../../assets/icons/dev-tools/int
 import { ReactComponent as EclipseIcon } from '../../assets/icons/dev-tools/eclipseide-icon.svg';
 import { ReactComponent as GitHubIcon } from '../../assets/icons/dev-tools/github-icon.svg';
 import { ReactComponent as GitLabIcon } from '../../assets/icons/dev-tools/gitlab.svg';
+import { ReactComponent as FigmaIcon } from '../../assets/icons/dev-tools/figma-icon.svg';
+import { ReactComponent as TrelloIcon } from '../../assets/icons/dev-tools/trello-icon.svg';
 
 //Social icons
 import { ReactComponent as WhatsappIcon } from '../../assets/icons/social/whatsapp-icon.svg';
@@ -142,6 +144,14 @@ const devToolsIcons = {
   Eclipse: {
     icon: EclipseIcon,
     url: 'https://eclipseide.org/',
+  },
+  Figma: {
+    icon: FigmaIcon,
+    url: 'https://www.figma.com/',
+  },
+  Trello: {
+    icon: TrelloIcon,
+    url: 'https://trello.com/',
   },
 };
 
