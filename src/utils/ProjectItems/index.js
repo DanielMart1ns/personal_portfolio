@@ -70,7 +70,7 @@ const projetItems = {
   },
   SimpleLP: {
     image: simpleLP,
-    title: 'Ebac Restaurant',
+    title: 'Simple Landing Page',
     description:
       'Uma landing page simples para um evento fictício, contendo algumas funcionalidades de contagem regressiva e slides de scroll.',
     viewUrl: 'https://ebac-tech-talks-orpin.vercel.app/',
@@ -78,7 +78,7 @@ const projetItems = {
   },
   mongoRegister: {
     image: mongoRegister,
-    title: 'Sistema de cadastro noSQL',
+    title: 'Sistema de cadastro noSQL (MongoDB)',
     description:
       'Mais um projeto back-end desenvolvido. Desta vez fizemos um cadastro no database MongoDB usando a linguagem Java. Para isso, usamos o framework Spring Boot para subir a nossa aplicação e o Postman para executarmos algumas interações com endpoints. A aplicação foi realizada usando a arquitetura de microsserviços.',
     viewUrl:
@@ -87,7 +87,7 @@ const projetItems = {
   },
   SqlAnimalsRegister: {
     image: sqlAnimalsRegister,
-    title: 'Sistema de cadastro de ONG SQL',
+    title: 'Sistema de cadastro para uma ONG (SQL)',
     description:
       'Projeto back-end, utilizando a arquitetura de microsserviços para o cadastro de animais em um abrigo. Para este projeto, foi utilizado a linguagem Java, e o framework Spring-Boot para a realização do mesmo. No vídeo em anexo, na seção de exibição do código, foi implementado uma documentação explicando o que cada respectivo trecho realiza, facilitando a compreensão. Os dados implementados foram cadastrados em um banco de dados relacional. Após a exibição do código, subimos a nossa aplicação através do Spring-Boot, além disso, foi utilizado o Postman para a consulta das APIs criadas e requisições http através dos endpoints. O padrão utilizado para o retorno dos dados da API foi o JSON. Para finalizar, mostro a nossa tabela criada no database contendo todos os nossos dados cadastrados.',
     viewUrl:
@@ -96,7 +96,7 @@ const projetItems = {
   },
   SqlProductsRegister: {
     image: sqlProductsRegister,
-    title: 'Sistema de vendas SQL',
+    title: 'Sistema de vendas SQL (PostgreeSQL)',
     description:
       'Este projeto é referente a um cadastro de clientes e produtos, desta vez, utilizamos um banco de dados para o armazenamento dos mesmos (PostgreSQL). Além disso submetemos o nosso projeto à testes (JUnit), simulando interações com o banco de dados. No video que se segue, é demonstrado os procedimentos de cadastro, consulta, exclusão, atualização dos dados e busca por todos. Foram feitas duas demonstrações. A primeira demonstrando os dados sendo injetados no banco e a segunda em uma suite, já com os testes como devem ser: testando os dados no banco e logo após excuindo-os.',
     viewUrl:
