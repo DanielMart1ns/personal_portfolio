@@ -19,7 +19,7 @@ export const Gallery = styled.div`
   column-gap: 32px;
   row-gap: 42px;
 
-  @media (max-width: ${breakpoints.mobile}) {
+  @media (max-width: 930px) {
     display: flex;
     flex-direction: column;
   }
@@ -31,9 +31,14 @@ export const ProjectCard = styled.div`
   background-color: rgba(0, 0, 0, 0.85);
   transition: all 0.2s ease-in-out;
 
+  @media (max-width: 1100px) {
+    width: 420px;
+    height: 580px;
+  }
+
   @media (max-width: ${breakpoints.mobile}) {
     width: auto;
-    /* height: 580px; */
+    height: auto;
   }
 
   &:hover {
@@ -48,6 +53,10 @@ export const ProjectCard = styled.div`
     max-height: 240px;
     height: 100%;
     object-fit: cover;
+
+    @media (max-width: ${breakpoints.mobile}) {
+      max-width: 100%;
+    }
   }
 
   div {

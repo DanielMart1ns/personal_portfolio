@@ -21,7 +21,7 @@ export const GlobalStyle = createGlobalStyle`
         max-width: 1024px;
         width: 100%;
         margin: 46px auto 72px;
-
+        padding: 0 24px;
         /* margin: 46px 220px 0 72px; */
         color: #fff;
 
