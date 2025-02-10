@@ -96,7 +96,7 @@ const projetItems = {
   },
   SqlProductsRegister: {
     image: sqlProductsRegister,
-    title: 'Sistema de vendas SQL (PostgreeSQL)',
+    title: 'Sistema de vendas SQL (PostgreSQL)',
     description:
       'Este projeto é referente a um cadastro de clientes e produtos, desta vez, utilizamos um banco de dados para o armazenamento dos mesmos (PostgreSQL). Além disso submetemos o nosso projeto à testes (JUnit), simulando interações com o banco de dados. No video que se segue, é demonstrado os procedimentos de cadastro, consulta, exclusão, atualização dos dados e busca por todos. Foram feitas duas demonstrações. A primeira demonstrando os dados sendo injetados no banco e a segunda em uma suite, já com os testes como devem ser: testando os dados no banco e logo após excuindo-os.',
     viewUrl:
