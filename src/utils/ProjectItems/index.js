@@ -60,22 +60,6 @@ const projetItems = {
     viewUrl: 'https://agencia-turismo-elci.vercel.app/',
     repositoryUrl: 'https://github.com/DanielMart1ns/tourism-agency-bootstrap',
   },
-  EbacRestaurant: {
-    image: ebacRestaurant,
-    title: 'Ebac Restaurant',
-    description:
-      'Uma web page relacionada a um restaurant. Para a criação da aplicação utilizamos o framework Bootstrap para de modo a construir os layouts e adionar os estilos.',
-    viewUrl: 'https://ebac-restaurant.vercel.app/',
-    repositoryUrl: 'https://github.com/DanielMart1ns/EBAC_restaurant_bootstrap',
-  },
-  SimpleLP: {
-    image: simpleLP,
-    title: 'Simple Landing Page',
-    description:
-      'Uma landing page simples para um evento fictício, contendo algumas funcionalidades de contagem regressiva e slides de scroll.',
-    viewUrl: 'https://ebac-tech-talks-orpin.vercel.app/',
-    repositoryUrl: 'https://github.com/DanielMart1ns/ebac_tech_talks',
-  },
   mongoRegister: {
     image: mongoRegister,
     title: 'Sistema de cadastro noSQL (MongoDB)',
@@ -93,26 +77,6 @@ const projetItems = {
     viewUrl:
       'https://www.linkedin.com/feed/update/urn:li:activity:7267582922927333376/',
     repositoryUrl: 'https://github.com/DanielMart1ns/animals-shelter',
-  },
-  SqlProductsRegister: {
-    image: sqlProductsRegister,
-    title: 'Sistema de vendas SQL (PostgreSQL)',
-    description:
-      'Este projeto é referente a um cadastro de clientes e produtos, desta vez, utilizamos um banco de dados para o armazenamento dos mesmos (PostgreSQL). Além disso submetemos o nosso projeto à testes (JUnit), simulando interações com o banco de dados. No video que se segue, é demonstrado os procedimentos de cadastro, consulta, exclusão, atualização dos dados e busca por todos. Foram feitas duas demonstrações. A primeira demonstrando os dados sendo injetados no banco e a segunda em uma suite, já com os testes como devem ser: testando os dados no banco e logo após excuindo-os.',
-    viewUrl:
-      'https://www.linkedin.com/feed/update/urn:li:activity:7244721818261938176/',
-    repositoryUrl:
-      'https://github.com/DanielMart1ns/Project_With_Database_Register',
-  },
-  JavaSwing: {
-    image: javaSwing,
-    title: 'Back-end Java com IHC',
-    description:
-      'Aplicação back-end em mémoria com a finalidade de cadastro de clientes. Além disso, usamos o java swing para a criação de uma IHC (Interface-Homem-Computador) intuitiva, desse modo, o usuário poderá se cadastrar seus clientes de forma prática.',
-    viewUrl:
-      'https://www.linkedin.com/feed/update/urn:li:activity:7232024211001659392/',
-    repositoryUrl:
-      'https://github.com/DanielMart1ns/RegistrationClientSwingScreen',
   },
 };
 
