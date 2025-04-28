@@ -12,7 +12,7 @@ const projetItems = {
     image: nicroches,
     title: 'Nicrochês',
     description:
-      'Inteface em Nuxt.js e TS, integração com Node.js e TS, cadastro de produtos e vendas com MongoDB, vendas usando Mercado Pago além de uma página de admin para cadastro, deleção e edição de produtos.',
+      'Inteface em Nuxt.js, Tailwind e TS, integração com Node.js e TS, cadastro de vendas e produtos com MongoDB, vendas usando Mercado Pago, envio de pedidos por emails além de uma página de admin para cadastro, deleção e edição de produtos.',
     viewUrl: 'https://nic.adsonmartins.tech/',
   },
   Eplay: {
@@ -44,7 +44,8 @@ const projetItems = {
     image: todoReact,
     title: 'Todo with React.js',
     description:
-      'Neste projeto, utilizamos o React.js para a construção da aplicação e sua respectiva componentização. Os estilos foram realizados por meio do Styled-Components de forma dinâmica, a lógica do projeto foi feita a partir do TypeScript e usamos o gerenciador de estados Redux evitando o problema de prop drilling. Funcionamento: O usuário poderá adicionar suas atividades em uma tela de formulário independente, localizada no canto inferior direito da tela, nela conterá o título da tarefa como também a descrição e ele será capaz de inserir a etiqueta de prioridade. Após validada, a atividade será cadastrada na lista de tarefas, no qual haverá um menu de modo a filtrar por cada grupo de prioridade e status. Caso queira, o usuário poderá optar por buscar manualmente por uma tarefa especifica no campo de busca, ou combinar ambos os métodos de filtragem. Obs.: Para a navegação entre páginas foi usado o método react-router para o gerenciamento de rotas, melhorando o desempenho da aplicação.',
+      'Neste projeto, utilizamos o React.js para a construção da aplicação e sua respectiva componentização. Os estilos foram realizados por meio do Styled-Components de forma dinâmica, a lógica do ...',
+    // projeto foi feita a partir do TypeScript e usamos o gerenciador de estados Redux evitando o problema de prop drilling. Funcionamento: O usuário poderá adicionar suas atividades em uma tela de formulário independente, localizada no canto inferior direito da tela, nela conterá o título da tarefa como também a descrição e ele será capaz de inserir a etiqueta de prioridade. Após validada, a atividade será cadastrada na lista de tarefas, no qual haverá um menu de modo a filtrar por cada grupo de prioridade e status. Caso queira, o usuário poderá optar por buscar manualmente por uma tarefa especifica no campo de busca, ou combinar ambos os métodos de filtragem. Obs.: Para a navegação entre páginas foi usado o método react-router para o gerenciamento de rotas, melhorando o desempenho da aplicação.
     viewUrl: 'https://my-tasks-sigma.vercel.app/',
     repositoryUrl: 'https://github.com/DanielMart1ns/my-tasks',
   },
