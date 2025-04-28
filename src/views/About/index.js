@@ -19,11 +19,12 @@ const About = () => {
           ambiente.
         </p>
         <p>
-          Possuindo experiência profissional na área de desenvolvimento de
-          software, formado na área da tecnologia, mas especificamente como
-          desenvolvedor de sistemas Full Stack com back-end na linguagem Java na
-          instituição EBAC, prossigo trilhando meu caminho nesta área na qual me
-          identifico muito.
+          Possuindo experiência profissional na área de desenvolvimento
+          front-end na startup SpaceShip Web Solutions, com estudos na
+          instituição EBAC (Escola Britânica de Artes Criativas & Tecnologia),
+          atuante na área da tecnologia, mas especificamente como desenvolvedor
+          de sistemas Full Stack, prossigo trilhando meu caminho nesta área na
+          qual me identifico muito.
         </p>
         <span className="fragment">&lt; / &gt;</span>
       </div>
