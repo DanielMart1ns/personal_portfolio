@@ -1,20 +1,23 @@
+import nicroches from '../../assets/images/nicroches.png';
 import eplay from '../../assets/images/eplay.png';
 import efood from '../../assets/images/efood.png';
 import disneyClone from '../../assets/images/clone-disney-plus.png';
-import sportStore from '../../assets/images/sports-store.png';
 import todoReact from '../../assets/images/todo-react.png';
 import tourismAgency from '../../assets/images/tourism-agency.png';
-import ebacRestaurant from '../../assets/images/ebac-restaurant.png';
-import simpleLP from '../../assets/images/simple-landing-page.png';
 import mongoRegister from '../../assets/images/nosql-register.png';
 import sqlAnimalsRegister from '../../assets/images/sql-animals-register.png';
-import sqlProductsRegister from '../../assets/images/sql-register.png';
-import javaSwing from '../../assets/images/java-swing.png';
 
 const projetItems = {
+  Nicroches: {
+    image: nicroches,
+    title: 'Nicrochês',
+    description:
+      'Inteface em Nuxt.js e TS, integração com Node.js e TS, cadastro de produtos e vendas com MongoDB, vendas usando Mercado Pago além de uma página de admin para cadastro, deleção e edição de produtos.',
+    viewUrl: 'https://nic.adsonmartins.tech/',
+  },
   Eplay: {
     image: eplay,
-    title: 'E-commerce Eplay',
+    title: 'Eplay',
     description:
       'Para a consulta dos layouts, utilizamos o Figma para a visualização dos desings presentes em página. A construção da aplicação foi feita através da biblioteca React, desse modo conseguimos aplicar a componentização dos elementos, proporcionando um maior controle e gerenciamento do código.Foi usado o método SPA (Single Page Application), e para isso foi adicionado ao projeto o React-Router-Dom e o React-Router-Hash-Link. Dessa forma o usuário poderá navegar entre diferentes páginas da aplicação utilizando o mesmo domínio, sem a necessidade de abrir abas externas. O gerenciamento de estados ficou por conta do Redux, evitando assim o comum problema de prop drilling. Para a estilização importamos o Styled-Components, assim criamos controles personalizados para os estilo através de propriedades e condicionais. Além disso, as validações e o controle dos campos do formulário foram realizadas através do Yup e Formik, respectivamente. A comunicação com a API foi feita por meio do RTQ (React-Toolkit-Query)',
     viewUrl: 'https://eplay-project-pi.vercel.app/',
@@ -22,20 +25,13 @@ const projetItems = {
   },
   Efood: {
     image: efood,
-    title: 'E-commerce alimentício',
+    title: 'E-Food',
     description:
       'A construção da aplicação foi feita através da biblioteca React, desse modo conseguimos aplicar a componentização dos elementos, proporcionando um maior controle e gerenciamento do código. Foi usado o método SPA (Single Page Application), e para isso foi adicionado ao projeto o React-Router-Dom. Dessa forma o usuário poderá navegar entre diferentes páginas da aplicação utilizando o mesmo domínio, sem a necessidade de abrir abas externas. O gerenciamento de estados ficou por conta do Redux, evitando assim o comum problema de prop drilling. Para a estilização foi importado o Styled-Components, assim criamos controles personalizados para os estilo através de propriedades e condicionais. Além disso, as validações e o controle dos campos do formulário foram realizadas através do Yup e Formik, respectivamente. A comunicação com a API foi feita por meio do RTQ (React-Toolkit-Query)',
     viewUrl: 'https://efood-ebon.vercel.app/',
     repositoryUrl: 'https://github.com/DanielMart1ns/Efood',
   },
-  SportStore: {
-    image: sportStore,
-    title: 'SportStore',
-    description:
-      'Projeto SportStore utilizando um hero de tela inicial e uma logo marca personalizada. Neste projeto utilizamos o automatizador de tarefas Gulp.js, desta forma ganhamos mais desempenho em nossa aplicação, por meio de compressão de código e melhor qualidade de imagens sem aumento de consumo de dados. Para a estilização, foi usado o SASS e metodologias SMACSS & BEM.',
-    viewUrl: 'https://sport-store-nu.vercel.app/',
-    repositoryUrl: 'https://github.com/DanielMart1ns/SportStore',
-  },
+
   DisneyClone: {
     image: disneyClone,
     title: 'Clone Disney plus',
@@ -64,7 +60,8 @@ const projetItems = {
     image: mongoRegister,
     title: 'Sistema de cadastro noSQL (MongoDB)',
     description:
-      'Mais um projeto back-end desenvolvido. Desta vez fizemos um cadastro no database MongoDB usando a linguagem Java. Para isso, usamos o framework Spring Boot para subir a nossa aplicação e o Postman para executarmos algumas interações com endpoints. A aplicação foi realizada usando a arquitetura de microsserviços.',
+      'Mais um projeto back-end desenvolvido. Desta vez fizemos um cadastro no database MongoDB usando a linguagem Java. Para isso, usamos o framework Spring Boot para subir a nossa ...',
+    // aplicação e o Postman para executarmos algumas interações com endpoints. A aplicação foi realizada usando a arquitetura de microsserviços.
     viewUrl:
       'https://www.linkedin.com/feed/update/urn:li:activity:7272359333563158530/',
     repositoryUrl: 'https://github.com/DanielMart1ns/MongoDB_Register',

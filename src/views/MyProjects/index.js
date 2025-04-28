@@ -53,14 +53,15 @@ const Projects = () => {
                 </p>
               </div>
               <S.LearnMore>
-                <p>&lt; Saiba Mais / &gt;</p>
+                {/* <p>&lt; Saiba Mais / &gt;</p> */}
                 <div className="accessProjectIcons">
                   <a href={viewUrl} target="_blank" rel="noreferrer">
-                    <Button TechIcon={eyeView} size="fit" />
+                    Acessar Projeto
                   </a>
-                  <a href={repositoryUrl} target="_blank" rel="noreferrer">
+                  {/* <a href={repositoryUrl} target="_blank" rel="noreferrer">
+                    Acessar repositório{' '}
                     <Button TechIcon={gitHubIcon} size="fit" />
-                  </a>
+                  </a> */}
                 </div>
               </S.LearnMore>
             </S.ProjectCard>

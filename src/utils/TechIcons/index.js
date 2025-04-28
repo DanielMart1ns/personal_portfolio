@@ -6,6 +6,7 @@ import { ReactComponent as TsIcon } from '../../assets/icons/front-end-tech/type
 import { ReactComponent as BootstrapIcon } from '../../assets/icons/front-end-tech/bootstrap-icon.svg';
 import { ReactComponent as SassIcon } from '../../assets/icons/front-end-tech/sass-icon.svg';
 import { ReactComponent as TailwindCssIcon } from '../../assets/icons/front-end-tech/tailwind-css-icon.svg';
+import { ReactComponent as NuxtIcon } from '../../assets/icons/front-end-tech/nuxt-icon.svg';
 import { ReactComponent as VueIcon } from '../../assets/icons/front-end-tech/vuejs-icon.svg';
 import { ReactComponent as ReactIcon } from '../../assets/icons/front-end-tech/react-icon.svg';
 import { ReactComponent as ReduxIcon } from '../../assets/icons/front-end-tech/redux-icon.svg';
@@ -13,6 +14,7 @@ import { ReactComponent as ReduxIcon } from '../../assets/icons/front-end-tech/r
 //Back-end tech icons
 import { ReactComponent as JavaIcon } from '../../assets/icons/back-end-tech/java-icon.svg';
 import { ReactComponent as SpringBootIcon } from '../../assets/icons/back-end-tech/spring-boot-icon.svg';
+import { ReactComponent as NodeIcon } from '../../assets/icons/back-end-tech/node-icon.svg';
 import { ReactComponent as PostgreeIcon } from '../../assets/icons/back-end-tech/postgreesql-icon.svg';
 import { ReactComponent as MongoDBIcon } from '../../assets/icons/back-end-tech/mongodb-icon.svg';
 import { ReactComponent as PostmanIcon } from '../../assets/icons/back-end-tech/postman-icon.svg';
@@ -68,6 +70,10 @@ const frontEndIcons = {
     icon: TailwindCssIcon,
     url: 'https://tailwindcss.com/',
   },
+  Nuxt: {
+    icon: NuxtIcon,
+    url: 'https://nuxt.com/',
+  },
   Vue: {
     icon: VueIcon,
     url: 'https://vuejs.org/',
@@ -90,6 +96,10 @@ const backEndIcons = {
   SpringBoot: {
     icon: SpringBootIcon,
     url: 'https://docs.spring.io/spring-boot/index.html',
+  },
+  Node: {
+    icon: NodeIcon,
+    url: 'https://nodejs.org/',
   },
   Postgree: {
     icon: PostgreeIcon,

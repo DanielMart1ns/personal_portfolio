@@ -82,8 +82,28 @@ export const LearnMore = styled.div`
 
   .accessProjectIcons {
     display: flex;
-    width: 140px;
+    width: 100%;
     margin: auto;
-    justify-content: space-between;
+    justify-content: center;
+
+    a {
+      width: 100%;
+      border: 2px solid transparent;
+      border-radius: 8px;
+      padding: 8px;
+      text-align: center;
+      text-decoration: none;
+      font-weight: 600;
+      background-color: #ddd;
+      color: #000;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        border-radius: 16px 8px;
+        border: 2px solid #ddd;
+        background-color: #000;
+        color: #ddd;
+      }
+    }
   }
 `;
