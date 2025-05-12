@@ -5,7 +5,7 @@ const About = () => {
     <S.AboutBody className="contentDiv">
       <div className="textBody">
         <span className="fragment">&lt; &gt;</span>
-        <h2> Quem sou eu?</h2>
+        <h2>Quem sou eu?</h2>
         <p>Olá, é um grande prazer ter você aqui!</p>
         <p>
           Faço parte do grupo de pessoas que gostam de esportes, animais,

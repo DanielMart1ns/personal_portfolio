@@ -13,7 +13,7 @@ const projetItems = {
     title: 'Nicrochês',
     description:
       'Inteface em Nuxt.js, Tailwind e TS, integração com Node.js e TS, cadastro de vendas e produtos com MongoDB, vendas usando Mercado Pago, envio de pedidos por emails além de uma página de admin para cadastro, deleção e edição de produtos.',
-    viewUrl: 'https://nic.adsonmartins.tech/',
+    viewUrl: 'https://nicroches.vercel.app',
   },
   Eplay: {
     image: eplay,
