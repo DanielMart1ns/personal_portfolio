@@ -20,11 +20,11 @@ const About = () => {
         </p>
         <p>
           Possuindo experiência profissional na área de desenvolvimento
-          front-end na startup SpaceShip Web Solutions, com estudos na
-          instituição EBAC (Escola Britânica de Artes Criativas & Tecnologia),
-          atuante na área da tecnologia, mas especificamente como desenvolvedor
-          de sistemas Full Stack, prossigo trilhando meu caminho nesta área na
-          qual me identifico muito.
+          front-end na startup SpaceShip Web Solutions, com curso
+          profissionalizante completo na instituição EBAC (Escola Britânica de
+          Artes Criativas & Tecnologia), atuante na área da tecnologia, mas
+          especificamente como desenvolvedor de sistemas Full Stack, prossigo
+          trilhando meu caminho nesta área na qual me identifico muito.
         </p>
         <span className="fragment">&lt; / &gt;</span>
       </div>
