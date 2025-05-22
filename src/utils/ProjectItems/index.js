@@ -1,3 +1,4 @@
+import ebee from '../../assets/images/e-bee.png';
 import nicroches from '../../assets/images/nicroches.png';
 import eplay from '../../assets/images/eplay.png';
 import efood from '../../assets/images/efood.png';
@@ -8,6 +9,13 @@ import mongoRegister from '../../assets/images/nosql-register.png';
 import sqlAnimalsRegister from '../../assets/images/sql-animals-register.png';
 
 const projetItems = {
+  Ebee: {
+    image: ebee,
+    title: 'E-Bee Systems Development',
+    description:
+      'Landing-Page de uma agência própria para desenvolvimento de sistemas, contendo tipos de serviços, modelos criados, ferramentas utilizadas e contato. A interface foi criada por meio do Nuxt.js e o design feito no Figma ',
+    viewUrl: 'https://ebee-system.vercel.app/',
+  },
   Nicroches: {
     image: nicroches,
     title: 'Nicrochês',
@@ -31,7 +39,6 @@ const projetItems = {
     viewUrl: 'https://efood-ebon.vercel.app/',
     repositoryUrl: 'https://github.com/DanielMart1ns/Efood',
   },
-
   DisneyClone: {
     image: disneyClone,
     title: 'Clone Disney plus',
@@ -53,7 +60,7 @@ const projetItems = {
     image: tourismAgency,
     title: 'Traveling',
     description:
-      'Uma web page relacionada a uma agência de turismo chamada Traveling. Para a criação da aplicação utilizamos o framework Bootstrap para de modo a construir os layouts e adionar os estilos.',
+      'Uma web page relacionada a uma agência de turismo chamada Traveling. Para a criação da aplicação utilizamos o framework Bootstrap de modo a construir os layouts e adionar os estilos.',
     viewUrl: 'https://agencia-turismo-elci.vercel.app/',
     repositoryUrl: 'https://github.com/DanielMart1ns/tourism-agency-bootstrap',
   },

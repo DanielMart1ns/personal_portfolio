@@ -38,6 +38,7 @@ export const HeaderBody = styled.div`
     height: 280px;
     box-shadow: 0px 0px 8px black;
     z-index: 1;
+    object-fit: cover;
 
     @media (max-width: ${breakpoints.mobile}) {
       width: 180px;

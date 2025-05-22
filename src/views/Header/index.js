@@ -1,4 +1,4 @@
-import avatar from '../../assets/images/avatar2.jpg';
+import avatar from '../../assets/images/avatar3.png';
 import * as S from './style';
 
 const Header = () => {
